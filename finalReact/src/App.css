@@ -1,0 +1,247 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: black;
+}
+
+body{
+  background-color: black!important;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+.navbar-home {
+  color: #ffffff;
+  margin-bottom: 20px!important;
+  padding: 20px!important;
+  z-index: 9999;
+  position: relative;
+}
+.navbar-home a{
+  color: #ffffff!important;
+ text-decoration: none;
+}
+
+.pizzasCard{
+  padding: 20px;
+}
+
+.card {
+  padding: 1em;
+  margin: 10px;
+}
+
+.banner{
+  width: 100%;
+  height: 300px;
+  background-image: url('assets/tasty-pepperoni-pizza.png');
+  object-fit: cover;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2{
+  color: #ffffff;
+  position: relative;
+  font-size: 36px;
+  font-weight: 400;
+
+}
+
+.banner h4{
+  color: #ffffff;
+  position: relative;
+  font-size: 24px;
+
+}
+
+
+
+.card-title{
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+  text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 30px!important;
+}
+
+.card-text{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.precio{
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card-text li{
+  list-style: none;
+    padding-left: 30px;
+    position: relative;
+}
+
+.card-text li:before{
+
+  position: absolute;
+  content: '';
+  background-image: url('assets/pizza.png');
+  background-position: center;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.title-ingredient{
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: 20px;
+
+}
+
+.title-ingredient li{
+  text-align: left;
+  list-style: none;
+  padding-left: 30px;
+  position: relative;
+
+}
+
+.title-ingredient li:before{
+
+  position: absolute;
+  content: '';
+  background-image: url('assets/pizza.png');
+  background-position: center;
+    background-size: cover;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.titulo{
+  font-size: 36px;
+}
+
+.bajada{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.total svg{
+  margin-bottom: 5px;
+}
+
+.caja{
+  width: 100%;
+  height: 600px;
+}
+
+.pizza-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  max-width: 800px !important;
+    margin: 0 auto;
+  
+}
+
+.pizza-item img{
+  width: 50px;
+  height: auto;
+}
+
+.item1{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.lista{
+  display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 50px;
+}
+
+.botones{
+  display: flex;
+    align-items: baseline;
+    min-width: 400px;
+    justify-content: initial;
+}
+
+.botones h3{
+  text-transform: capitalize;
+}
+
+.totales{
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 60px;
+  text-align: left;
+}
+
+.titulocarro{
+  margin-bottom: 40px;
+}
